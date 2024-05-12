@@ -1,0 +1,4 @@
+train: /content/drive/MyDrive/Colab_Notebooks/data/train_images  # path to training images
+val: /content/drive/MyDrive/Colab_Notebooks/data/val_images  # path to validation images
+nc: 1  # number of classes
+names: ['car']  # class names
