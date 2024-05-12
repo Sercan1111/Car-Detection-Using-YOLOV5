@@ -35,7 +35,7 @@ python train.py --img 640 --batch 16 --epochs 50 --data dataset.yaml --cfg model
 3-To detect cars in new images:
 python detect.py --weights runs/train/yolov5l_car_results/weights/best.pt --img 640 --conf 0.25 --source data/images/
 
-#Results
+# Results
 -The trained model achieves high accuracy in detecting cars with precision and recall values over 95%. These metrics were validated using the validation dataset included in the training process.
 
 # Future Work
@@ -43,6 +43,6 @@ python detect.py --weights runs/train/yolov5l_car_results/weights/best.pt --img 
 -Experimenting with different YOLOv5 models like YOLOv5s or YOLOv5m for faster performance or higher accuracy.
 -Implementing additional features like car model and color recognition.
 
-#Contributions
+# Contributions
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please ensure to update tests as appropriate.
 
